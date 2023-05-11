@@ -4,8 +4,8 @@ main.tf
 # Provider Block
 provider "aws" {
   region  = var.aws_region
-  access_key = "AKIA3FPKTM2ANU3EHI6L"
-  secret_key = "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"
+  access_key = "AKIAXUALI3WZES645Q5R"
+  secret_key = "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"
 }
 
 # Create a new EC2 instance using the EC2 module
