@@ -1,5 +1,5 @@
 
-instance_name = "MyInstancenew"
+instance_name = "MyInstance"
 instance_type = "t2.micro"
 ami_id = "ami-0b5eea76982371e91"
 subnet_id = "subnet-0647355fe2516ee16"
