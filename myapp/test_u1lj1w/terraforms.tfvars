@@ -1,8 +1,8 @@
 
-application          =  "aws_iam"
+applicationÂ =Â "aws_iam"
 
-service              =  "Infrastructure layer"
+serviceÂ =Â "InfrastructureÂ layer"
 
-owner                =  "infra@insight.com"
+owner=Â "infra@insight.com"
 
-environment          =  "test"
+environment="test"
