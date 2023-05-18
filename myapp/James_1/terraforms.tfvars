@@ -1,8 +1,8 @@
-account = "AWS"
+account = "GCP"
 instance_name = "James"
-app = "fast"
-instance_type = "t4g.nano"
-ami_id = "ami-0d09e058a2a630df6"
+app = "ami"
+instance_type = "m5d.8xlarge"
+ami_id = " ami-0d351eeaab8a4441c "
 subnet_id = "us-west-1"
 security_group_ids = ["sg-0cd060c8df19420a8"]
 
