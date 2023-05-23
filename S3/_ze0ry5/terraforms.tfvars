@@ -1,5 +1,0 @@
-account = ""
-name = ""
-app = ""
-bucketName = ""
-Environment = ""
