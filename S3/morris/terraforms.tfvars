@@ -1,0 +1,6 @@
+account = "azure"
+name = "morris"
+app = "root"
+bucketName = "new_buck"
+Environment = "production"
+action = "Option 1"
