@@ -1,6 +1,0 @@
-account = "aws"
-name = "shaew"
-app = "config"
-bucketName = "new"
-Environment = "dev"
-action = "Option 1"
