@@ -1,6 +1,6 @@
 account = "gcp"
 instance_name = "wilton"
-app = "old_tag"
+app = "old"
 instance_type = "t4g.nano"
 ami_id = "ami-0d09e058a2a630df6"
 subnet_id = "us-west-1"
