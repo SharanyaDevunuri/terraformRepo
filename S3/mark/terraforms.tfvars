@@ -1,6 +1,6 @@
 account = "AZURE"
 name = "mark"
 app = "new"
-bucketName = "my_buck"
+bucketName = "my_bucket"
 Environment = "prod"
 action = "Option 1"
