@@ -1,0 +1,6 @@
+account = "aws"
+name = "sharu"
+app = "azure"
+bucketName = "shary"
+Environment = "data"
+action = "Option 1"
