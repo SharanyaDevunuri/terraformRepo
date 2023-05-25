@@ -1,4 +1,4 @@
-account = "google-aws"
+account = "google"
 instance_name = "wilton"
 app = "old"
 instance_type = "t4g.nano"
