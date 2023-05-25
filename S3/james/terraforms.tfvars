@@ -1,6 +1,0 @@
-account = "azure"
-name = "james"
-app = "old tag"
-bucketName = "my_buck"
-Environment = "dev"
-action = "Option 1"
