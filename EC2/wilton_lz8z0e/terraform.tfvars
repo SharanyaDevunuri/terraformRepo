@@ -1,4 +1,4 @@
-account = "google"
+account = "gcp"
 instance_name = "wilton"
 app = "old_tag"
 instance_type = "t4g.nano"
