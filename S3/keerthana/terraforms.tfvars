@@ -1,6 +1,6 @@
 account = "gcp"
 name = "keerthana"
 app = "new"
-bucketName = "keerthana_bucket"
-Environment = "dev"
+bucketName = "keerthana_buck"
+Environment = "prod"
 action = "Option 1"
