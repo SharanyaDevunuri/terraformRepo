@@ -1,0 +1,6 @@
+account = "AZURE"
+name = "mark"
+app = "new"
+bucketName = "my_bucket"
+Environment = "dev"
+action = "Option 1"
