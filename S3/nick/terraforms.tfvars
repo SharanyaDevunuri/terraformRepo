@@ -1,6 +1,0 @@
-account = "google"
-name = "nick"
-app = "feature"
-bucketName = "mys3"
-Environment = "prod"
-action = "Option 1"
