@@ -1,6 +1,0 @@
-account = "gcp"
-name = "keerthana"
-app = "new"
-bucketName = "keerthana_space"
-Environment = "production"
-action = "Option 1"
