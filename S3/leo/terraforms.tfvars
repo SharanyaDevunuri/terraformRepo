@@ -1,0 +1,6 @@
+account = "azure"
+name = "leo"
+app = "base"
+bucketName = "mybucket"
+Environment = "prod"
+action = "Option 1"
