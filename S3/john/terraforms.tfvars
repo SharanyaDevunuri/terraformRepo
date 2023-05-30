@@ -1,0 +1,6 @@
+account = "AWS"
+name = "john"
+app = "base"
+bucketName = "myS3"
+Environment = "dev"
+action = "Option 1"
