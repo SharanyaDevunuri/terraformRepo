@@ -1,0 +1,6 @@
+account = "mongo"
+name = "shesh"
+app = "fast"
+bucketName = "S3"
+Environment = "dev"
+action = "Option 1"
