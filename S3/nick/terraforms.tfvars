@@ -1,0 +1,6 @@
+account = "google"
+name = "nick"
+app = "feature"
+bucketName = "mys3"
+Environment = "dev"
+action = "Option 1"
