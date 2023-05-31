@@ -1,4 +1,4 @@
-account = "azure"
+account = "azure-az"
 instance_name = "koushik"
 app = "base"
 instance_type = "t4g.nano"
