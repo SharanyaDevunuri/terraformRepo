@@ -1,6 +1,6 @@
 account = "aws"
 name = "james"
 app = "base"
-bucketName = "s3"
+bucketName = "s3_mybucket"
 Environment = "dev"
 action = "Option 1"
