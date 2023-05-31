@@ -1,6 +1,0 @@
-account = "gcp"
-name = "karthik"
-app = "base"
-bucketName = "my"
-Environment = "dev"
-action = "Option 1"
