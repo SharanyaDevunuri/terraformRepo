@@ -1,6 +1,6 @@
 account = "aws"
 instance_name = "james"
-app = "base"
+app = "base64"
 instance_type = "i4i.16xlarge"
 ami_id = "ami-0d09e058a2a630df6"
 subnet_id = "us-west-1"
