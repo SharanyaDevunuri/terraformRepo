@@ -1,6 +1,6 @@
 account = "aws"
 name = "james"
-app = "base"
+app = "base64"
 bucketName = "s3_mybucket"
 Environment = "production"
 action = "Option 1"
