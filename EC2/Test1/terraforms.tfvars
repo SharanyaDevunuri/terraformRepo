@@ -1,6 +1,6 @@
 account = "AWS"
 instance_name = "Test1"
-app = "base"
+app = "basic"
 instance_type = "t4g.nano"
 ami_id = "ami-0d09e058a2a630df6"
 subnet_id = "us-west-1"
