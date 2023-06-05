@@ -17,7 +17,7 @@ pipeline {
                 export AWS_SECRET_ACCESS_KEY="" 
                 export AWS_DEFAULT_REGION="us-east-1"
                 terraform init 
-                terraform plan -var-file="configs/tek/terraform.tfvars"
+                terraform plan -var-file="configs/Test13/terraform.tfvars"
             '''
     }
             }

@@ -1,5 +1,5 @@
-account = "AWS"
-instance_name = "test1"
+account = "aws"
+instance_name = "Test13"
 app = "base"
 instance_type = "t4g.nano"
 ami_id = "ami-0d09e058a2a630df6"
