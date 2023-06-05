@@ -1,4 +1,4 @@
-account = "aws"
+account = "azure"
 instance_name = "harini"
 app = "dare"
 instance_type = "i4i.16xlarge"
