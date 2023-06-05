@@ -1,0 +1,6 @@
+account = "aws"
+name = "Test4"
+app = "basic"
+bucketName = "my"
+Environment = "dev"
+action = "Option 1"
