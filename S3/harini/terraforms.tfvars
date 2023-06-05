@@ -1,6 +1,0 @@
-account = "aws"
-name = "harini"
-app = "dare"
-bucketName = "my_bucket"
-Environment = "dev"
-action = "Option 1"
