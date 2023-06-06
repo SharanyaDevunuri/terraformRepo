@@ -2,7 +2,7 @@ variable "region" {}
 variable "ami" {}
 variable "instance_type" {}
 variable "tags" {}
-
+ 
 terraform {
     required_providers {
         aws = {
