@@ -7,6 +7,11 @@ pipeline {
     }
     
     stages {
+        stage('Clone Repository1') {
+            steps {
+                sh 'rm -rf *'
+            }
+        }
         stage('Clone Repository') {
             steps {
                 git branch: 'main', url: 'https://github.com/SharanyaDevunuri/terraformRepo.git'
