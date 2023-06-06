@@ -7,6 +7,11 @@ pipeline {
     }
     
     stages {
+        stage('CleanWorkspace') {
+            steps {
+                cleanWs()
+            }
+        }
         stage('Clone Repository') {
             steps {
                 git branch: 'main', url: 'https://github.com/SharanyaDevunuri/terraformRepo.git'
