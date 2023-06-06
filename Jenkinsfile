@@ -18,10 +18,10 @@ pipeline {
                 script {
                     sh '''
                         #!/bin/bash
-                        terraform init -backend-config region="us-east-1" -backend-config bucket="build-demo-101" -backend-config key="EC2/Test30/terraform.tfstate"
+                        terraform init -backend-config region="us-east-1" -backend-config bucket="build-demo-101" -backend-config key="EC2/Test31/terraform.tfstate"
                         terraform validate
-                        terraform plan -var-file="configs/Test30/terraform.tfvars"
-                        terraform apply --auto-approve -var-file="configs/Test30/terraform.tfvars"
+                        terraform plan -var-file="configs/Test31/terraform.tfvars"
+                        terraform apply --auto-approve -var-file="configs/Test31/terraform.tfvars"
                     '''
     }
             }
