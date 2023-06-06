@@ -16,10 +16,10 @@ provider "aws" {
     region = var.region
 }
 
-# terraform {
-#   backend "s3" {
-#   }
-# }
+terraform {
+  backend "s3" {
+  }
+}
 resource "aws_instance" "EC2Instance" {
     ami = var.ami
     instance_type = var.instance_type
