@@ -1,4 +1,4 @@
-Test1Test1Test1Test1Test1Test1pipeline {
+pipeline {
     agent any
 
     environment {
