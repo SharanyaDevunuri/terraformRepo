@@ -24,12 +24,12 @@ resource "aws_instance" "EC2Instance" {
     ami = var.ami
     instance_type = var.instance_type
     key_name = "test-delete"
-    availability_zone = "us-east-1d"
+    availability_zone = "us-west-1a"
     tenancy = "default"
-    subnet_id = "subnet-045a96461f4c2bd36"
+    subnet_id = "subnet-08efe5ab8f2f984de"
     ebs_optimized = false
     vpc_security_group_ids = [
-        "sg-01103824f39bbe40f"
+        "sg-0536a0a608be74879"
     ]
     source_dest_check = true
     root_block_device {
