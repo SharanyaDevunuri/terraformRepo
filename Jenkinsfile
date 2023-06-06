@@ -26,10 +26,10 @@ pipeline {
     }
             }
         }        
-        post { 
-        always { 
-            cleanWs()
-        }
-    }
+    stage('CleanWorkspace') {
+            steps {
+                cleanWs()
+            }
+        }   
     }
 }
