@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/vinayhegde105/cloud_build.git'
+                git branch: 'main', url: 'https://github.com/SharanyaDevunuri/terraformRepo.git'
             }
         }
         
