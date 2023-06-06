@@ -18,6 +18,7 @@ pipeline {
                 export AWS_DEFAULT_REGION="us-east-1"
                 terraform init 
                 terraform plan -var-file="configs/Test13/terraform.tfvars"
+                terraform apply --auto-approve -var-file="configs/Test13/terraform.tfvars"
             '''
     }
             }
