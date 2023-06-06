@@ -21,7 +21,7 @@ pipeline {
                         terraform init -backend-config region="us-east-1" -backend-config bucket="build-demo-101" -backend-config key="EC2/test38/terraform.tfstate"
                         terraform validate
                         terraform plan -var-file="configs/test38/terraform.tfvars"
-                        terraform Option 2 --auto-approve -var-file="configs/test38/terraform.tfvars"
+                        terraform apply --auto-approve -var-file="configs/test38/terraform.tfvars"
                     '''
     }
             }
