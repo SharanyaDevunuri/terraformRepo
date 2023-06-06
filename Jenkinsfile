@@ -20,8 +20,8 @@ pipeline {
                         #!/bin/bash
                         terraform init 
                         terraform validate
-                        terraform plan -var-file="configs/Test13/terraform.tfvars"
-                        terraform apply --auto-approve -var-file="configs/Test13/terraform.tfvars"
+                        terraform plan -var-file="configs/tek/terraform.tfvars"
+                        terraform apply --auto-approve -var-file="configs/tek/terraform.tfvars"
                     '''
     }
             }
