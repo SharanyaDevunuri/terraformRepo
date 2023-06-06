@@ -17,6 +17,7 @@ pipeline {
             steps {
                 script {
                     sh '''
+                    
                         #!/bin/bash
                         terraform init -backend-config region="us-east-1" -backend-config bucket="build-demo-101" -backend-config key="EC2/Test32/terraform.tfstate"
                         terraform validate
