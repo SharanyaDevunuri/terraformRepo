@@ -17,7 +17,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/SharanyaDevunuri/terraformRepo.git'
             }
         }
-        
+         
         stage('SCM Migration') {
             steps {
                 script {
