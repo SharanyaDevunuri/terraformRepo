@@ -1,4 +1,4 @@
 instance_type = "t4g.nano"
-ami = "ami-0d09e058a2a630df6"
+ami = "ami-0f8e81a3da6e2510a"
 tags = "production"
 region = "us-west-1"
