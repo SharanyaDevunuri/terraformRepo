@@ -18,7 +18,7 @@ pipeline {
             }
         }
         
-        stage('SCM Migration') {
+        stage('Terraform command execution') {
             steps {
                 script {
                     sh '''
