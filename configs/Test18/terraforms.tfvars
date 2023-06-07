@@ -1,4 +1,4 @@
-tags = "Test18"
+tags = "Test1"
 instance_type = "t2.micro"
-ami = "ami-0d351eeaab8a4441c"
-region = "ap-southeast-1"
+ami = "ami-0f8e81a3da6e2510a"
+region = "us-west-1"
