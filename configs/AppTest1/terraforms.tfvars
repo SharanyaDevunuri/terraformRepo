@@ -1,4 +1,4 @@
 tags = "TagSample1"
 instance_type = "t2.micro"
-ami = "ami-02bf3fea296e7a751"
-region = "us-east-1"
+ami = "ami-0f8e81a3da6e2510a"
+region = "us-west-1"
