@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Sharanyaprodunuri/terraformRepo.git'
+                git branch: 'main', url: 'https://github.com/SharanyaDevunuri/terraformRepo.git'
             }
         }
         
@@ -26,7 +26,7 @@ pipeline {
                         terraform init -backend-config region="us-east-1" -backend-config bucket="build-demo-101" -backend-config key="EC2/prod/terraform.tfstate"
                         terraform validate
                         terraform plan -var-file="configs/prod/terraforms.tfvars"
-                        terraform apply --auto-approve -var-file="configs/Dev/terraforms.tfvars"
+                        terraform apply --auto-approve -var-file="configs/prod/terraforms.tfvars"
                     '''
     }
             }
