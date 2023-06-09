@@ -1,7 +1,0 @@
-key_name = "key-pair-1"
-tags = "tag1"
-subnet_id = "subnet-0f64d826ef561c16b"
-instance_type = "t2.micro"
-ami = "ami-0f8e81a3da6e2510a"
-region = "us-west-1"
-vpc_security_group_id = "sg-0eeba72522ce48198"

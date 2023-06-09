@@ -1,7 +1,0 @@
-tags                  =   "test"
-instance_type         =   "t2.micro"
-ami                   =   "ami-04d1dcfb793f6fa37"
-key_name              = "key-pair-1"
-subnet_id             = "subnet-0f64d826ef561c16b"
-vpc_security_group_id = "sg-0eeba72522ce48198"
-region                = "us-west-1"
