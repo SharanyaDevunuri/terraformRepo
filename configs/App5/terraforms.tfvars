@@ -1,0 +1,7 @@
+region = "us-west-1"
+ami = "ami-0f8e81a3da6e2510a"
+tags = "Tag5"
+instance_type = "t2.micro"
+subnet_id = "subnet-0f64d826ef561c16b"
+vpc_security_group_id = "sg-0eeba72522ce48198"
+key_name = "key-pair-1"
