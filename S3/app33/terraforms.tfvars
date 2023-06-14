@@ -1,2 +1,2 @@
 bucketName = "bucket33"
-region = "us-west-1"
+region = "ap-southeast-1"
