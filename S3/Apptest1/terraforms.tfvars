@@ -1,3 +1,3 @@
 app = "Apptest1"
-bucketName = "bucket123"
-region = "us-west-1"
+bucketName = "bucket1"
+region = "ap-southeast-1"
