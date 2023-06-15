@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/S3Bucket/S3.git'
+                git branch: 'main', url: 'https://github.com/TGSINFRA/S3BUCKET.git'
             }
         }
 
