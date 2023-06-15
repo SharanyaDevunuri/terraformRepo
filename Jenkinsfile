@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/S3Bucket/S3.git'
+                git branch: 'main', url: 'https://github.com/TGSINFRA/S3BUCKET.git'
             }
         }
 
@@ -25,10 +25,10 @@ pipeline {
                 script {
                     sh '''
                         #!/bin/bash
-                        terraform init -backend-config region="us-east-1" -backend-config bucket="tgs-infra" -backend-config key="S3/app/terraform.tfstate"
+                        terraform init -backend-config region="us-east-1" -backend-config bucket="tgs-infra" -backend-config key="S3/app1/terraform.tfstate"
                         terraform validate
-                        terraform plan -var-file="configs/app/terraforms.tfvars"
-                        terraform apply --auto-approve -var-file="configs/app/terraforms.tfvars"
+                        terraform plan -var-file="configs/app1/terraforms.tfvars"
+                        terraform apply --auto-approve -var-file="configs/app1/terraforms.tfvars"
                     '''
     }
             }
